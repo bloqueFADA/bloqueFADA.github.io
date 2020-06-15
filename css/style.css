@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.txtmenu {
+	position: fixed;
+	z-index: 2;
+	margin-top: 90vh;
+	left: 45%;
+}
+
+.nm {
+	margin-top: 0.5vh;
+	margin-right: 0.8vh;
+	margin-left: 1.3vh;
+}
+
+.menu {
+	position: fixed;
+	z-index: 1;
+	margin-top: 85vh;
+	left: 45%;
+}
+
+.bloquefada {
+	height: 70vh;
+	align-items: center;
+	background-image: url("../images/portadaf.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.galeria {
+	height: 100vh;
+}
+
+.gtitulo {
+	font-family: 'MinecraftiaRegular';
+	font-size: 18px;
+	text-align: left;
+}
+
+.g1 {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.g2 {
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.g3 {
+	text-align: center;
+}
+
+.resultados {
+	height: 70vh;
+	background-color: lightgray;
+	align-items: center;
+	text-align: center;
+}
+
+.final {
+	height: 100vh;
+	align-items: center;
+}
+
+.final1 {
+	height: 70vh;
+	background-image: url("../images/gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.tf {
+	font-family: 'MinecraftiaRegular';
+	font-size: 18px;
+	text-align: center;
+	color: yellow;
+}
+
+.footer {
+	height: 30vh;
+	background-color: lightgray;
+}
