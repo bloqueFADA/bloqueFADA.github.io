@@ -3,25 +3,29 @@
 .txtmenu {
 	position: fixed;
 	z-index: 2;
-	margin-top: 90vh;
-	left: 45%;
+	bottom: 0;
+	left: 50%;
+    transform: translate(-55%, -55%);
 }
 
 .nm {
-	margin-top: 0.5vh;
-	margin-right: 0.8vh;
-	margin-left: 1.3vh;
+	
+	font-family: 'MinecraftiaRegular';
+	font-size: 12px;
+	margin-right: 5px;
+	margin-left: 33px;
 }
 
 .menu {
 	position: fixed;
 	z-index: 1;
-	margin-top: 85vh;
-	left: 45%;
+	bottom: 0;
+	left: 50%;
+    transform: translate(-50%, -20%);
 }
 
 .bloquefada {
-	height: 70vh;
+	height: 90vh;
 	align-items: center;
 	background-image: url("../images/portadaf.jpg");
 	background-position: center;
@@ -29,14 +33,41 @@
 	background-size: contain;
 }
 
+.primertxt {
+	height: 80vh;
+	align-items: center;
+}
+
 .galeria {
-	height: 100vh;
+	/*height: 100vh;*/
+    height: 100%;
+    /*margin-bottom: 50px;*/
 }
 
 .gtitulo {
 	font-family: 'MinecraftiaRegular';
 	font-size: 18px;
 	text-align: left;
+    margin-bottom: 10px;
+}
+
+.tt1 {
+	height: 10vh;
+}
+
+.gpar{
+    font-family: 'MinecraftiaRegular';
+	font-size: 14px;
+	text-align: left;
+    padding: 50px;
+}
+
+.gcre{
+    font-family: 'MinecraftiaRegular';
+	font-size: 11px;
+	text-align: left;
+    padding: 20px;
+    margin-bottom: 60px;
 }
 
 .g1 {
@@ -54,34 +85,72 @@
 	text-align: center;
 }
 
+.segundotxt {
+	height: 50vh;
+	align-items: center;
+}
+
 .resultados {
-	height: 70vh;
+	/*height: 70vh;*/
+    /*margin-bottom: 70px;*/
 	background-color: lightgray;
 	align-items: center;
 	text-align: center;
 }
 
-.final {
-	height: 100vh;
+.resultados1, .resultados2{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.tercertxt {
+	height: 50vh;
 	align-items: center;
 }
 
-.final1 {
-	height: 70vh;
+.final {
+	height: 100%;
+	align-items: center;
+	text-align: center;
+}
+
+.fdd {
+
+	height: 400px;
 	background-image: url("../images/gif.gif");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+	text-align: center;
+	
+}
+
+.container2 {
+	
+	align-items: center;
+	position: relative;
+	text-align: center;
+	font-family: 'MinecraftiaRegular';
+	font-size: 16px;
+
 }
 
 .tf {
-	font-family: 'MinecraftiaRegular';
-	font-size: 18px;
-	text-align: center;
-	color: yellow;
+
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.cuartotxt {
+	height: 50vh;
+	align-items: center;
 }
 
 .footer {
-	height: 30vh;
+	height: 100%;
 	background-color: lightgray;
 }
